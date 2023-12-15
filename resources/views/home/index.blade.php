@@ -2,6 +2,7 @@
 
 @section('content')
     <x-navbar></x-navbar>
+    <audio id="myAudio" src="{{ asset('mp3/_2_Ed Sheeran - Perfect.mp3') }}" autoplay></audio>
     <section id="jumbotron" class="w-full h-screen bg-no-repeat bg-cover bg-center max-sm:bg-left" style="background-image: url('{{ asset('img/background/jumbotron/jumbotron.png') }}')" >
         <div class="container m-auto">
             <div class="name-bride text-center pt-[50vh]">
@@ -180,7 +181,7 @@
                     </div>
                     <div class="date mt-1">
                         <p class="text-xl text-cyan-600">
-                            Senin, 25 Desember 2023
+                            Senin, 26 Desember 2023
                         </p>
                         <p class="text-xl text-cyan-600">
                             08.00 AM - Selesai
@@ -198,7 +199,7 @@
                     </div>
                     <div class="date mt-1">
                         <p class="text-xl text-cyan-600">
-                            Senin, 25 Desember 2023
+                            Senin, 26 Desember 2023
                         </p>
                         <p class="text-xl text-cyan-600">
                             01.00 PM - Selesai

@@ -71,6 +71,11 @@ function copyRekening(elementId) {
       });
   };
 
+  const audio = document.getElementById("myAudio");
+
+    window.addEventListener("DOMContentLoaded", () => {
+    audio.play();
+});
 
 
 
