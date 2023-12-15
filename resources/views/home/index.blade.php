@@ -181,7 +181,7 @@
                     </div>
                     <div class="date mt-1">
                         <p class="text-xl text-cyan-600">
-                            Senin, 26 Desember 2023
+                            Selasa, 26 Desember 2023
                         </p>
                         <p class="text-xl text-cyan-600">
                             08.00 AM - Selesai
@@ -199,7 +199,7 @@
                     </div>
                     <div class="date mt-1">
                         <p class="text-xl text-cyan-600">
-                            Senin, 26 Desember 2023
+                            Selasa, 26 Desember 2023
                         </p>
                         <p class="text-xl text-cyan-600">
                             01.00 PM - Selesai
