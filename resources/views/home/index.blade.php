@@ -3,6 +3,7 @@
 @section('content')
     <x-navbar></x-navbar>
     <audio id="myAudio" src="{{ asset('mp3/_2_Ed Sheeran - Perfect.mp3') }}" autoplay></audio>
+    <button class="fixed bottom-5 right-5 w-fit bg-cyan-500 text-white py-3 px-4 rounded-full text-2xl z-50" id="playButton"><i class="fa-solid fa-music fa-beat"></i></button>
     <section id="jumbotron" class="w-full h-screen bg-no-repeat bg-cover bg-center max-sm:bg-left" style="background-image: url('{{ asset('img/background/jumbotron/jumbotron.png') }}')" >
         <div class="container m-auto">
             <div class="name-bride text-center pt-[50vh]">
@@ -347,6 +348,8 @@
 
     <script>
         var audio = document.getElementById('myAudio');
+        var playButton = document.getElementById('playButton');
+
         function playAudio() {
             if (audio.paused) {
                 audio.play();
@@ -354,13 +357,13 @@
                 audio.pause();
             }
         }
-        document.addEventListener('DOMContentLoaded', function() {
-            // Mendaftarkan tindakan pengguna langsung untuk memainkan audio
-            document.addEventListener('click', function() {
-                playAudio();
-            });
 
-            // Putar audio saat dokumen selesai dimuat
+        window.addEventListener("DOMContentLoaded", () => {
+            audio.play();
+        });
+
+        // Mendaftarkan tindakan pengguna saat tombol diklik
+        playButton.addEventListener('click', function() {
             playAudio();
         });
 

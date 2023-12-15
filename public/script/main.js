@@ -48,9 +48,6 @@ window.addEventListener('scroll', function () {
         } else if (isPastJumbotron) {
             line.classList.remove('bg-cyan-600');
             line.classList.add('bg-white');
-        } else if(isPastRundown) {
-            line.classList.remove('bg-cyan-600');
-            line.classList.add('bg-white');
         } else {
             line.classList.add('bg-cyan-600');
             line.classList.remove('bg-white');
