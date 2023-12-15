@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="{{ asset('img/icon.jpg') }}">
+
+    <!-- Meta untuk mendefinisikan thumbnail yang akan muncul saat tautan dibagikan -->
+    <meta property="og:image" content="{{ asset('img/gallery/1.jpg') }}">
+    <meta property="og:image:width" content="630">
+    <meta property="og:image:height" content="630">
+
+    <!-- Meta untuk mendefinisikan judul dan deskripsi yang akan muncul saat tautan dibagikan -->
+    <meta property="og:title" content="Wedding Of Rini & Toupan">
+    <meta property="og:description" content="Jasa Web Developer Devto.id">
+
+    <!-- Meta untuk mendefinisikan URL halaman yang dibagikan -->
+    <meta property="og:url" content="https://wedding-of-rini-and-toupan.devto.id/">
     <title>Wedding Of Rini & Toupan</title>
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])

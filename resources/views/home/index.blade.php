@@ -103,7 +103,7 @@
                         Dari {{ $profile->hometown_bride }}
                     </p>
                     <a href="https://www.instagram.com/{{ $profile->ig_bride }}" class="font-light text-white text-md hover:underline underline-offset-8 transition-all">
-                        <i class="fa-brands fa-instagram"></i> {{ $profile->ig_bride }}
+                        <i class="fa-brands fa-instagram"></i> @ {{ $profile->ig_bride }}
                     </a>
                 </div>
             </div>
@@ -127,7 +127,7 @@
                         Dari {{ $profile->hometown_groom }}
                     </p>
                     <a href="https://www.instagram.com/{{ $profile->ig_groom }}" class="font-light text-white text-md hover:underline underline-offset-8 transition-all">
-                        <i class="fa-brands fa-instagram"></i> {{ $profile->ig_groom }}
+                        <i class="fa-brands fa-instagram"></i> @ {{ $profile->ig_groom }}
                     </a>
                 </div>
             </div>
@@ -346,6 +346,24 @@
     @include('home.partials.footer')
 
     <script>
+        var audio = document.getElementById('myAudio');
+        function playAudio() {
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mendaftarkan tindakan pengguna langsung untuk memainkan audio
+            document.addEventListener('click', function() {
+                playAudio();
+            });
+
+            // Putar audio saat dokumen selesai dimuat
+            playAudio();
+        });
+
         // Ambil tanggal target dari database atau sumber lainnya
         var targetDate = new Date("{{ $rundown->start_date }}").getTime();
     
