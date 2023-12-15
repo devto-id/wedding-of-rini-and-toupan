@@ -52,7 +52,7 @@
     </section>
     <section id="quotes" class="w-full h-fit bg-cyan-600 flex max-sm:flex-col max-sm:text-center py-20 text-white">
         <div class="initial w-[25%] m-auto max-sm:mb-10 text-7xl font-medium">
-            <div class="text w-full flex justify-center m-auto pt-4 px-4 border-t border-x border-white rounded-t-full">
+            <div class="text w-fit flex justify-center m-auto pt-4 px-4 border-t border-x border-white rounded-t-full">
                 <div class="groom">
                     <h1 class="font-heading -mr-5">{{ $profile ? substr($profile->first_name_groom, 0, 1) : '' }}</h1>
                 </div>
