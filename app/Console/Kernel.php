@@ -15,6 +15,11 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')->hourly();
     }
 
+    protected function scheduleTimezone()
+    {
+        return 'Asia/Jakarta'; // Sesuaikan dengan zona waktu Anda
+    }
+
     /**
      * Register the commands for the application.
      */

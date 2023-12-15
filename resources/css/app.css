@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Dream Avenue';
+    src: url('../../public/fonts/dream_avenue/DreamAvenue.otf') format('opentype'),
+         url('../../public/fonts/dream_avenue/DreamAvenue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.font-heading {
+    font-family: 'Dream Avenue', sans-serif;
+}
+
+.bg-primary-dark{
+    background-color: #161A30;
+}
+
+.bg-primary{
+    background-color: #31304D;
+}
+
+.bg-primary-grey{
+    background-color: #B6BBC4;
+}
+
+.bg-primary-light{
+    background-color: #F0ECE5;
+}
+
+.text-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    z-index: 0;
+}
+
+
+
