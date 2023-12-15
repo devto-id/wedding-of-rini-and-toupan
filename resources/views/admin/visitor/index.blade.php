@@ -2,12 +2,10 @@
     <x-slot name="header">
         <div class="flex items-center justify-between flex-wrap">
             <h2 class="font-semibold text-xl text-primary leading-tight">
-                Profile
+                Tamu Undangan
             </h2>
 
-            <x-primary-button style="text-decoration: none;" as="a" href="{{ route('admin.profileBride.create') }}">
-                Tambah Profile
-            </x-primary-button>
+            <a class="bg-cyan-500 text-white py-1 px-5 rounded-lg border-2 focus:outline outline-cyan-400 hover:bg-cyan-600 border-cyan-600 transition-all" href="{{ route('admin.visitor.create') }}">Tambah Tamu</a>
         </div>
     </x-slot>
 

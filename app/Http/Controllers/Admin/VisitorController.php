@@ -20,7 +20,7 @@ class VisitorController extends Controller
     public function create()
     {
         // Menampilkan form untuk menambahkan tamu undangan baru
-        return view('admin.visitor.create');
+        return view('admin.visitor.form');
     }
 
     public function store(Request $request)
