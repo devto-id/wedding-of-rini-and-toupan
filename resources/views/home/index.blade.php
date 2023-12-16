@@ -189,7 +189,7 @@
                         </p>
                     </div>
                     <div class="address mt-5">
-                        <p class="text-lg text-cyan-600">Kp Sukahurip RT01 RW02 Kec.Culamega Kab. Tasikmalaya, Jawabarat, Indonesia </p>
+                        <p class="text-lg text-cyan-600">Kp Sukahurip RT01 RW02 Desa Cintabodas, Kec.Culamega, Kab.Tasikmalaya, Jawabarat, Indonesia </p>
                     </div>
                 </div>
                 <div class="resepsi text-right ml-[auto] bg-white h-fit w-[40%] max-lg:w-[50%] max-md:w-[80%] max-sm:w-[95%] px-10 py-10 mt-5">
@@ -207,11 +207,11 @@
                         </p>
                     </div>
                     <div class="address mt-5">
-                        <p class="text-lg text-cyan-600">Kp Sukahurip RT01 RW02 Kec.Culamega Kab. Tasikmalaya, Jawabarat, Indonesia </p>
+                        <p class="text-lg text-cyan-600">Kp Sukahurip RT01 RW02 Desa Cintabodas, Kec.Culamega, Kab.Tasikmalaya, Jawabarat, Indonesia </p>
                     </div>
                 </div>
                 <div class="map bg-white h-fit w-[40%] max-lg:w-[50%] max-md:w-[80%] max-sm:w-[95%] px-10 py-10 mt-16 m-auto rounded-md">
-                    <iframe class="rounded-md border-cyan-900" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126553.03943429263!2d107.87471543719187!3d-7.598636058775529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e66083c06d3cbdb%3A0xd4175d0a9d9fe25b!2sKec.%20Culamega%2C%20Kabupaten%20Tasikmalaya%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1702382998155!5m2!1sid!2sid" 
+                    <iframe class="rounded-md border-cyan-900" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31637.695285314876!2d108.01704042984602!3d-7.60629631130027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65e2845add8095%3A0x99ff30f552fa5fc0!2sCintabodas%2C%20Kec.%20Culamega%2C%20Kabupaten%20Tasikmalaya%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1702685131266!5m2!1sid!2sid" 
                     width="100%" 
                     height="350" 
                     style="border:0;" 
@@ -219,9 +219,9 @@
                     loading="lazy" 
                     referrerpolicy="no-referrer-when-downgrade">
                   </iframe>
-                  <p class="text-xl text-cyan-600 mt-5 text-center">Kp Sukahurip RT01 RW02 Kec.Culamega Kab. Tasikmalaya, Jawabarat, Indonesia </p>
+                  <p class="text-xl text-cyan-600 mt-5 text-center">Kp Sukahurip RT01 RW02 Desa Cintabodas, Kec.Culamega, Kab.Tasikmalaya, Jawabarat, Indonesia </p>
                   <div class="button-map mt-10 m-auto w-fit bg-cyan-900 py-2 px-3 text-white rounded-md ring-cyan-700 hover:ring-4 transition-all">
-                    <a href="https://maps.app.goo.gl/d9KSkouLRoiiTmx4A">
+                    <a href="https://maps.app.goo.gl/fG5tx8BCqoruZ2VVA">
                       Lihat Lokasi
                     </a>
                   </div>
